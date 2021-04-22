@@ -35,10 +35,10 @@ def generate_deck():
     count = 0
     possible_vocabulary = []
     for elm in jp_en_dictionary:
-        conhecido = []
+        testing = []
         for char in elm[0]:
-            conhecido.append(char in known_kanji)
-        if all(conhecido):
+            testing.append(char in known_kanji)
+        if all(testing):
             possible_vocabulary.append(elm)
             count += 1
 
