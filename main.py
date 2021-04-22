@@ -15,7 +15,7 @@ def extract_kanji():
      necessary txt file"""
     from ankipandas import Collection
     col = Collection()
-    col.notes.to_csv('vocab.csv', encoding='utf-8')
+    col.notes.to_csv('vocab.csv', encoding='utf-8-sig')
 
 
 def generate_deck():
