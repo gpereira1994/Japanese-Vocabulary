@@ -84,7 +84,7 @@ def generate_deck():
 
 
 choice = input("If you want to generate the csv file, press 1. If you already populated the txt file and want to create"
-               "the Anki deck, press 2. ")
+               " the Anki deck, press 2. ")
 if choice == '1':
     extract_kanji()
 elif choice == '2':
